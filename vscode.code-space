@@ -1,0 +1,39 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "/home/dev/miniconda3/bin/python",
+    "python.envFile": "/home/dev/Code/.env",
+    "python.linting.lintOnSave": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+      "--line-length",
+      "120"
+    ],
+    "python.linting.flake8Args": [
+      "--max-line-length=120",
+      "--ignore=E203,E266,E501,W503"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.formatOnSaveTimeout": 3000,
+    "editor.codeActionsOnSaveTimeout": 3000,
+    "python.sortImports.args": [
+      "-l",
+      "120",
+      "-m",
+      "3",
+      "-tc",
+      "-up"
+    ],
+    "shellformat.path": "/home/dev/.vscode-server/extensions/foxundermoon.shell-format-7.0.1/bin/shfmt_v3.2.1_linux_amd64"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "files.autoGuessEncoding": true,
+    "files.insertFinalNewline": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.inheritEnv": false,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "cmake.configureOnOpen": true,
+    "extensions.ignoreRecommendations": true
+}

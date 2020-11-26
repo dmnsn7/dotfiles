@@ -1,7 +1,8 @@
 # Brew
 
+```plain
+brew install gcc python go
+brew install shfmt wget git kubernetes-cli ipython jq
+brew install --cask clashx docker google-chrome slack tencent-meeting wechat zoom
 ```
-brew install go node python
-brew install clang-format cppcheck jq pylint shellcheck tree wget yapf
-brew cask install google-chrome sublime-text
-```
+
